@@ -50,13 +50,43 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 
 /***/ }),
 
+/***/ "./src/images/blood-pressure.jpg":
+/*!***************************************!*\
+  !*** ./src/images/blood-pressure.jpg ***!
+  \***************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"ca92931de0eb23a8036f.jpg\";\n\n//# sourceURL=webpack://course/./src/images/blood-pressure.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/spine.jpg":
+/*!******************************!*\
+  !*** ./src/images/spine.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"8bf043113031dfd0a990.jpg\";\n\n//# sourceURL=webpack://course/./src/images/spine.jpg?");
+
+/***/ }),
+
+/***/ "./src/images/sport.jpg":
+/*!******************************!*\
+  !*** ./src/images/sport.jpg ***!
+  \******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"fab4cd9879ca50f7569b.jpg\";\n\n//# sourceURL=webpack://course/./src/images/sport.jpg?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n\n\n//# sourceURL=webpack://course/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _images_blood_pressure_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/blood-pressure.jpg */ \"./src/images/blood-pressure.jpg\");\n/* harmony import */ var _images_spine_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/spine.jpg */ \"./src/images/spine.jpg\");\n/* harmony import */ var _images_sport_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/sport.jpg */ \"./src/images/sport.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\nconst imagesDiv = document.getElementById(\"images\");\r\nfunction addImg(parent, img) {\r\n    const bloodPressureImg = new Image();\r\n    bloodPressureImg.src = img;\r\n\r\n    parent.appendChild(bloodPressureImg);\r\n}\r\n\r\naddImg(imagesDiv, _images_blood_pressure_jpg__WEBPACK_IMPORTED_MODULE_1__);\n\n//# sourceURL=webpack://course/./src/index.js?");
 
 /***/ })
 
@@ -111,6 +141,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -125,6 +167,26 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _ind
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript)
+/******/ 				scriptUrl = document.currentScript.src
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) scriptUrl = scripts[scripts.length - 1].src
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
 /******/ 	})();
 /******/ 	
 /************************************************************************/
