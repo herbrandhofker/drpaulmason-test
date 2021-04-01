@@ -3,6 +3,7 @@ import './index.css'
 import bloodPressure from './images/blood-pressure.jpg';
 import spine from './images/spine.jpg';
 import sport from './images/sport.jpg';
+import paulmason from './images/paul-mason-profile-picuture-2021_2.jpg';
 
 const imagesDiv = document.getElementById("images");
 function addImg(parent, img,title) {
@@ -22,3 +23,8 @@ function addImg(parent, img,title) {
 addImg(imagesDiv, bloodPressure,"METABOLIC MEDICINE​");
 addImg(imagesDiv, spine,"SPINAL PAIN");
 addImg(imagesDiv, sport,"SPORTS & PERFORMANCE");
+
+
+const paul = document.getElementById("paulmason");
+
+addImg(paul, paulmason,"SPORTS & PERFORMANCE");
