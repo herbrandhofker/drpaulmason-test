@@ -1,30 +1,22 @@
 import './index.css'
+import './home.mjs'
+import './about.mjs'
 
-import bloodPressure from './images/blood-pressure.jpg';
-import spine from './images/spine.jpg';
-import sport from './images/sport.jpg';
-import paulmason from './images/paul-mason-profile-picuture-2021_2.jpg';
+const menus = document.getElementsByClassName("menu-item"); 
 
-const imagesDiv = document.getElementById("images");
-function addImg(parent, img,title) {
-    const div = document.createElement("div");
-    div.classList.add("img-container")
-    const titleEl = document.createElement("div");
-    titleEl.classList.add("img-title")
-    titleEl.innerText=title;
-    const imgEl = new Image();
-    imgEl.src = img;
-    imgEl.classList.add("img-item")
-    div.appendChild(imgEl); 
-    div.appendChild(titleEl); 
-    parent.appendChild(div); 
+for (let menu of menus) {    
+    menu.addEventListener("click",()=>{  activate(menu.id);})
 }
 
-addImg(imagesDiv, bloodPressure,"METABOLIC MEDICINE​");
-addImg(imagesDiv, spine,"SPINAL PAIN");
-addImg(imagesDiv, sport,"SPORTS & PERFORMANCE");
+const tabs = document.getElementsByClassName("tab-content"); 
 
+function activate(id){
+    for (let tab of tabs) {    
+        tab.style.display = "none";    
+    }
+    for (let tab of tabs) {    
+        if (tab.id==id)  tab.style.display = "block";    
+    }
+}
 
-const paul = document.getElementById("paulmason");
-
-addImg(paul, paulmason,"SPORTS & PERFORMANCE");
+activate("home")
