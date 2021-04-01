@@ -60,6 +60,16 @@ eval("module.exports = __webpack_require__.p + \"ca92931de0eb23a8036f.jpg\";\n\n
 
 /***/ }),
 
+/***/ "./src/images/paul-mason-profile-picuture-2021_2.jpg":
+/*!***********************************************************!*\
+  !*** ./src/images/paul-mason-profile-picuture-2021_2.jpg ***!
+  \***********************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3145de5bc2923833088c.jpg\";\n\n//# sourceURL=webpack://course/./src/images/paul-mason-profile-picuture-2021_2.jpg?");
+
+/***/ }),
+
 /***/ "./src/images/spine.jpg":
 /*!******************************!*\
   !*** ./src/images/spine.jpg ***!
@@ -86,7 +96,7 @@ eval("module.exports = __webpack_require__.p + \"fab4cd9879ca50f7569b.jpg\";\n\n
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _images_blood_pressure_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/blood-pressure.jpg */ \"./src/images/blood-pressure.jpg\");\n/* harmony import */ var _images_spine_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/spine.jpg */ \"./src/images/spine.jpg\");\n/* harmony import */ var _images_sport_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/sport.jpg */ \"./src/images/sport.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\nconst imagesDiv = document.getElementById(\"images\");\r\nfunction addImg(parent, img,title) {\r\n    const div = document.createElement(\"div\");\r\n    div.classList.add(\"img-container\")\r\n    const titleEl = document.createElement(\"div\");\r\n    titleEl.classList.add(\"img-title\")\r\n    titleEl.innerText=title;\r\n    const imgEl = new Image();\r\n    imgEl.src = img;\r\n    imgEl.classList.add(\"img-item\")\r\n    div.appendChild(imgEl); \r\n    div.appendChild(titleEl); \r\n    parent.appendChild(div); \r\n}\r\n\r\naddImg(imagesDiv, _images_blood_pressure_jpg__WEBPACK_IMPORTED_MODULE_1__,\"METABOLIC MEDICINE​\");\r\naddImg(imagesDiv, _images_spine_jpg__WEBPACK_IMPORTED_MODULE_2__,\"SPINAL PAIN\");\r\naddImg(imagesDiv, _images_sport_jpg__WEBPACK_IMPORTED_MODULE_3__,\"SPORTS & PERFORMANCE\");\n\n//# sourceURL=webpack://course/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./index.css */ \"./src/index.css\");\n/* harmony import */ var _images_blood_pressure_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./images/blood-pressure.jpg */ \"./src/images/blood-pressure.jpg\");\n/* harmony import */ var _images_spine_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./images/spine.jpg */ \"./src/images/spine.jpg\");\n/* harmony import */ var _images_sport_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./images/sport.jpg */ \"./src/images/sport.jpg\");\n/* harmony import */ var _images_paul_mason_profile_picuture_2021_2_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./images/paul-mason-profile-picuture-2021_2.jpg */ \"./src/images/paul-mason-profile-picuture-2021_2.jpg\");\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst imagesDiv = document.getElementById(\"images\");\r\nfunction addImg(parent, img,title) {\r\n    const div = document.createElement(\"div\");\r\n    div.classList.add(\"img-container\")\r\n    const titleEl = document.createElement(\"div\");\r\n    titleEl.classList.add(\"img-title\")\r\n    titleEl.innerText=title;\r\n    const imgEl = new Image();\r\n    imgEl.src = img;\r\n    imgEl.classList.add(\"img-item\")\r\n    div.appendChild(imgEl); \r\n    div.appendChild(titleEl); \r\n    parent.appendChild(div); \r\n}\r\n\r\naddImg(imagesDiv, _images_blood_pressure_jpg__WEBPACK_IMPORTED_MODULE_1__,\"METABOLIC MEDICINE​\");\r\naddImg(imagesDiv, _images_spine_jpg__WEBPACK_IMPORTED_MODULE_2__,\"SPINAL PAIN\");\r\naddImg(imagesDiv, _images_sport_jpg__WEBPACK_IMPORTED_MODULE_3__,\"SPORTS & PERFORMANCE\");\r\n\r\n\r\nconst paul = document.getElementById(\"paulmason\");\r\n\r\naddImg(paul, _images_paul_mason_profile_picuture_2021_2_jpg__WEBPACK_IMPORTED_MODULE_4__,\"SPORTS & PERFORMANCE\");\n\n//# sourceURL=webpack://course/./src/index.js?");
 
 /***/ })
 
