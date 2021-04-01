@@ -13,9 +13,7 @@ class About extends LitElement {
 
         .paragraph{
             margin : 15px;
-        }
-
-    
+        }    
      `};
 
     render() {
@@ -24,13 +22,13 @@ class About extends LitElement {
         <div class="container">
             <div>
                 ${this.addImg()}
-            <h1>Qualifications</h1>
-            <ul>
-                <li>Fellowship of Australasian College of Sport and Exercise Physicians</li>
-                <li>Bachelor of Medicine, Bachelor of Surgery (MBBS) (Honours) (USYD)</li>           
-                <li>Bachelor of Physiotherapy (LTU)</li>                                                                          
-                <li>Master of Occupational Health (LTU)</li>
-            </ul>
+                <h1>Qualifications</h1>
+                <ul>
+                    <li>Fellowship of Australasian College of Sport and Exercise Physicians</li>
+                    <li>Bachelor of Medicine, Bachelor of Surgery (MBBS) (Honours) (USYD)</li>           
+                    <li>Bachelor of Physiotherapy (LTU)</li>                                                                          
+                    <li>Master of Occupational Health (LTU)</li>
+                </ul>
             </div>
             <div class="paragraph">
                 <p> Dr Paul Mason is a Fellowship trained Sports and Exercise Medicine Physician with degrees in Medicine,
@@ -49,8 +47,7 @@ class About extends LitElement {
                     household names. He has worked with AFL, NRL and A-League athletes, as well as numerous Olympians. Of
                     course, Dr Mason is equally happy treating both athletes and non athletes.
                 </p>
-            </div>
-            
+            </div>            
         </div>
        `;
     }
