@@ -6,7 +6,7 @@
                 "p": "Survey 2009-2016 12% 2% obesity, soft marks"
             },
             {
-                "p":"=>CONSIDER FOOD"
+                "p": "=>CONSIDER FOOD"
             },
             {
                 "p": "SOME Examples"
@@ -17,10 +17,10 @@
         ]
     },
     {
-        "chapter":"Research of Students research",
+        "chapter": "Research of Students research",
         "ps": [
             {
-                "p":"No kwoledge of nutrition"
+                "p": "No kwoledge of nutrition"
             },
             {
                 "p": "Bias"
@@ -40,18 +40,18 @@
         "chapter": "ToxIc glucose and seedoils",
         "ps": [
             {
-                "p":"Both cause insulin resistance"
+                "p": "Both cause insulin resistance"
             }
         ]
-    }
-{
+    },
+    {
         "chapter": "Insulin resistance => high insulin",
         "ps": [
             {
                 "p": "Leads to obesity …some experiments"
             },
             {
-                "p": "Diabetes …many illneses"
+                "p": "Diabetes leads to many illnesses"
             }
         ]
     },
@@ -59,7 +59,7 @@
         "chapter": "Seedoils harm",
         "ps": [
             {
-                "p": "Saturated fat vs Unsaturated fat"
+                "p": "Saturated fat vs unsaturated fat"
             },
             {
                 "p": "Research outcome"
@@ -85,18 +85,18 @@
         ]
     },
     {
-        "chapter":"Omega 3 omega 6 mechanics",
+        "chapter": "Omega 3 omega 6 mechanics",
         "ps": [
             {
-                "p": " Mechanics"
+                "p": "Mechanics"
             },
             {
-                "p": "Get from fresh food"
+                "p": "Conclusion: Get fat from fresh food"
             }
         ]
     },
     {
-        "chapter":"Glucose fructose",
+        "chapter": "Glucose fructose",
         "ps": [
             {
                 "p": "The glucose problem"
@@ -129,7 +129,7 @@
         "chapter": "bone health"
     },
     {
-        "chapter":"sleep",
+        "chapter": "sleep",
         "ps": [
             {
                 "p": "insulin resistance"
@@ -140,22 +140,22 @@
         ]
     },
     {
-        "chapter":"viral infections"
+        "chapter": "viral infections"
     },
     {
-        "chapter":"Salt"
+        "chapter": "Salt"
     },
     {
-        "chapter":"LDL"
+        "chapter": "LDL"
     },
     {
-        "chapter":"Why doctors disagree",
+        "chapter": "Why doctors disagree",
         "ps": [
             {
                 "p": "Saturated Fat"
             },
             {
-                "p":"Cholesterol ancd Statins (drugs for cholesterol)"
+                "p": "Cholesterol and Statins (drugs for cholesterol)"
             }
         ]
     },
