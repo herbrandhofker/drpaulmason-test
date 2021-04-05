@@ -51,8 +51,6 @@ function activate(id) {
         tab.style.display = "none";
     }
     for (let tab of tabs) {
-        
-        console.log(tab.id+" "+id)
         if (tab.id == id) { tab.style.display = "block"; return; }
     }
     for (let tab of tabs) {
