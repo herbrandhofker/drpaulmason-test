@@ -137,12 +137,14 @@ class Home extends LitElement {
             display: flex;
             max-width: 100%;
             justify-content: space-around;
-           
+            margin: 10px;
+        
         }
         
         .img-container {
             display: flex;
             flex-direction: column; 
+            max-width: 100%;
             margin: 10px;
         }
         
@@ -153,7 +155,7 @@ class Home extends LitElement {
         }
         
         .img-item {
-            max-width: 400px;
+            max-width: 100%;
             flex-grow: 1;
         }
    `}
